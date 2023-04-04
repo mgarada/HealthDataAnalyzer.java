@@ -1,32 +1,20 @@
-package cmsc256;  // do not remove or comment out this statement
-
-//import java.io.File;
-//import java.io.FileNotFoundException;
-//import java.io.IOException;
-//import java.util.Arrays;
-//import java.util.Scanner;
+package cmsc256;  
 
 /**
  * CMSC 256
- * Project 1
- * [Garada], [Mohammad]
+ * Health Data Analyzer 
+ * Mohammad Garada 
  */
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
-public class Project1 {
+public class HealthDataAnalyzer {
     Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-        // Test your program thoroughly before submitting.
-        // For example,
-        // Display appropriately labeled information for the following:
-        // What is tallest height?
-        // Which row has the lowest weight?
-        // Calculate average height of 20-30 year age range in the data.
-
+       
        Project1 p1 = new Project1();
 
         String inputFileName = p1.checkArgs(args);
